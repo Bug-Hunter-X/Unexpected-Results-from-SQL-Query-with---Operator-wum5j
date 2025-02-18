@@ -1,0 +1,1 @@
+This repository contains an example of an uncommon SQL bug caused by using the `>` operator without considering edge cases. The `bug.sql` file demonstrates the problematic query, while `bugSolution.sql` provides the corrected version.  The issue arises from the exclusive nature of `>`, potentially omitting data points that are equal to the threshold value.
